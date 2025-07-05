@@ -66,20 +66,20 @@ sub.onclick = function() {
     math = 3800-524*guid +"x"
   }
   if(map == "Small" && jungle == "Right"){
-    math = 3276-524*guid +"x"
+    math = 3276+524*guid +"x"
   }
   if(map == "Medium" && jungle == "Left"){
     math = 6000-1008*guid +"x"
 
   }
   if(map == "Medium" && jungle == "Right"){
-    math = 4992-1008*guid +"x"
+    math = 4992+1008*guid +"x"
   }
   if(map == "Large" && jungle == "Left"){
     math = 8000-1448*guid +"x"
   }
   if(map == "Large" && jungle == "Right"){
-    math = 6552-1448*guid +"x"
+    math = 6552+1448*guid +"x"
   }
   console.log(res)
   res.innerHTML = math
