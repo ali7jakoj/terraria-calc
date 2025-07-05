@@ -63,23 +63,23 @@ document.addEventListener('click', function(e) {
 
 sub.onclick = function() {
   if(map == "Small" && jungle == "Left"){
-    math = 3800-524*guid +"x"
+    math = 3800-524*guid +"West"
   }
   if(map == "Small" && jungle == "Right"){
-    math = 3276+524*guid +"x"
+    math = 3276+524*guid +"East"
   }
   if(map == "Medium" && jungle == "Left"){
-    math = 6000-1008*guid +"x"
+    math = 6000-1008*guid +"West"
 
   }
   if(map == "Medium" && jungle == "Right"){
-    math = 4992+1008*guid +"x"
+    math = 4992+1008*guid +"East"
   }
   if(map == "Large" && jungle == "Left"){
-    math = 8000-1448*guid +"x"
+    math = 8000-1448*guid +"West"
   }
   if(map == "Large" && jungle == "Right"){
-    math = 6552+1448*guid +"x"
+    math = 6552+1448*guid +"East"
   }
   console.log(res)
   res.innerHTML = math
